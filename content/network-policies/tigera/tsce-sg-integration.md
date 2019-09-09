@@ -22,7 +22,7 @@ To do this, we need a simple web server in the same VPC as your EKS cluster, but
   * Set up a security group for the instance and allow inbound from *any* on port 80.  Call it something like *protect-sa-sg*
   * Create (or use an existing) SSH key
   * Launch and then ssh into the instance (either directly or via the console)
-  * Install you favorite webseerver using the platform's package tool. As an example in the case of the Amazon Linux, AMI, you might use yum to install httpd and start it:
+  * Install you favorite webserver using the platform's package tool. As an example in the case of the Amazon Linux, AMI, you might use yum to install httpd and start it:
   '''
   yum update -y
   yum install httpd -y
